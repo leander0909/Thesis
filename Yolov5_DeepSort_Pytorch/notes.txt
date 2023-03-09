@@ -1,0 +1,7 @@
+cd C:\yolov5\Yolov5_DeepSort_Pytorch
+python track.py --yolo_model bestn.pt --source C:\yolov5\Yolov5_DeepSort_Pytorch\videos\SM_test_footage.mp4
+
+python track.py --yolo_model best1.pt
+python track.py --yolo_model best1.pt --source C:\yolov5\Yolov5_DeepSort_Pytorch\videos\SM_test_footage.mp4 --save-vid
+python track.py --yolo_model bestn.pt --source C:\yolov5\Yolov5_DeepSort_Pytorch\videos\SM_test_footage.mp4
+python track.py --yolo_model bestn.pt --source C:\yolov5\Yolov5_DeepSort_Pytorch\videos\SM_middle.mp4
